@@ -7,20 +7,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Save tasks to local storage
     function saveTasks() {
         const tasks = [];
-        taskList.querySelectorAll("# taskList li").forEach(li => {
+        taskList.querySelectorAll("#taskList li").forEach(li => {
             tasks.push(li.firstChild.textContent.trim());
         });
         localStorage.setItem("tasks", JSON.stringify(tasks));
     }
 
-    // Load tasks from local storage
-    function loadTasks() {
-        const tasks = JSON.parse(localStorage.getItem("tasks") || "[]");
-        tasks.forEach(addTask);
-    }
-
     // Add task to the list
-    function addTask() {
+    function addTask(taskText) {
         if (taskText === '') return;
         
         const li = document.createElement('li');
@@ -35,6 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
         taskInput.value = "";
         saveTasks();
     };
+
+
+    // Load tasks from local storage
+    function loadTasks() {
+        const tasks = JSON.parse(localStorage.getItem("tasks") || "[]");
+        tasks.forEach(addTask);
+    }
 
     // Add task button click event
     addTaskBtn.addEventListener("click", () => addTask(taskInput.value.trim()));

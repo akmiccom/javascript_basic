@@ -46,7 +46,6 @@ li {
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
-    display: flex;
     align-items: center;  /* 📌 縦中央 */
 }
 

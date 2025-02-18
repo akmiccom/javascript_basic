@@ -1,0 +1,111 @@
+/* プロパティの順番 */
+/* 1. レイアウト (boxモデル) */
+/* 2. 背景・色 */
+/* 3. テキスト関連 */
+/* 4. その他（アニメーションなど） */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.countainer {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.inputBtn {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: aquamarine;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 20px;
+    background: #ddd;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn {
+    padding: 8px 15px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background: darkred;
+}
+
+
+/* 📌 ボックスの共通スタイル */
+.box {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    color: white;
+    /* border: 3px solid black; ✅ 枠線をつけて違いを分かりやすく */
+    margin: auto; /* 中央に配置 */
+}
+
+/* 📌 Padding の例（ボックス内の余白） */
+.padding-box {
+    background-color: #007bff;
+    padding: 20px; /* ✅ 内側の余白 */
+    border: 3px solid black;
+}
+
+/* 📌 Margin の例（ボックス間の余白） */
+.margin-box {
+    background-color: #ff9500;
+    margin-top: 40px; /* ✅ 外側の余白 */
+    border: 3px solid black;
+}

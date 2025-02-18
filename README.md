@@ -91,3 +91,89 @@ Google Analyticsを導入し、アクセス解析
 最初はシンプルなサイトから始めて、徐々に機能を追加すると良いですね。
 
 💡 次のステップとして、ReactやNext.jsを学んでモダンな開発環境に進むのもアリです！
+
+## CSS の基本
+
+```css
+/* 1. リセット / ノーマライズ（デフォルトのブラウザスタイルを統一） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. 基本のスタイル（body, html など） */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* 3. レイアウト（コンテナ、フレックスボックスなど） */
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4. 共通パーツ（ボタン、リンクなど） */
+button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+/* 5. コンテンツごとのスタイル */
+.header {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 6. メディアクエリ（レスポンシブ対応） */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+```
+
+```css
+.selector {
+  /* 1. レイアウト (boxモデル) */
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  
+  /* 2. 背景・色 */
+  background-color: #f8f9fa;
+  color: #333;
+
+  /* 3. テキスト関連 */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+  /* 4. その他（アニメーションなど） */
+  transition: all 0.3s ease;
+}
+```

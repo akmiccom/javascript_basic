@@ -1,0 +1,367 @@
+[
+    {
+        "code": "NH",
+        "name": "All Nippon Airways",
+        "country": "Japan"
+    },
+    {
+        "code": "JL",
+        "name": "Japan Airlines",
+        "country": "Japan"
+    },
+    {
+        "code": "KE",
+        "name": "Korean Air",
+        "country": "South Korea"
+    },
+    {
+        "code": "OZ",
+        "name": "Asiana Airlines",
+        "country": "South Korea"
+    },
+    {
+        "code": "MU",
+        "name": "China Eastern Airlines",
+        "country": "China"
+    },
+    {
+        "code": "CA",
+        "name": "Air China",
+        "country": "China"
+    },
+    {
+        "code": "CZ",
+        "name": "China Southern Airlines",
+        "country": "China"
+    },
+    {
+        "code": "SQ",
+        "name": "Singapore Airlines",
+        "country": "Singapore"
+    },
+    {
+        "code": "MH",
+        "name": "Malaysia Airlines",
+        "country": "Malaysia"
+    },
+    {
+        "code": "TG",
+        "name": "Thai Airways",
+        "country": "Thailand"
+    },
+    {
+        "code": "AI",
+        "name": "Air India",
+        "country": "India"
+    },
+    {
+        "code": "EK",
+        "name": "Emirates",
+        "country": "United Arab Emirates"
+    },
+    {
+        "code": "EY",
+        "name": "Etihad Airways",
+        "country": "United Arab Emirates"
+    },
+    {
+        "code": "QR",
+        "name": "Qatar Airways",
+        "country": "Qatar"
+    },
+    {
+        "code": "CX",
+        "name": "Cathay Pacific Airways",
+        "country": "Hong Kong"
+    },
+    {
+        "code": "QF",
+        "name": "Qantas",
+        "country": "Australia"
+    },
+    {
+        "code": "NZ",
+        "name": "Air New Zealand",
+        "country": "New Zealand"
+    },
+    {
+        "code": "LH",
+        "name": "Lufthansa",
+        "country": "Germany"
+    },
+    {
+        "code": "AF",
+        "name": "Air France",
+        "country": "France"
+    },
+    {
+        "code": "KL",
+        "name": "KLM Royal Dutch Airlines",
+        "country": "Netherlands"
+    },
+    {
+        "code": "BA",
+        "name": "British Airways",
+        "country": "United Kingdom"
+    },
+    {
+        "code": "IB",
+        "name": "Iberia",
+        "country": "Spain"
+    },
+    {
+        "code": "AZ",
+        "name": "ITA Airways",
+        "country": "Italy"
+    },
+    {
+        "code": "LX",
+        "name": "SWISS International Air Lines",
+        "country": "Switzerland"
+    },
+    {
+        "code": "TK",
+        "name": "Turkish Airlines",
+        "country": "Turkey"
+    },
+    {
+        "code": "LO",
+        "name": "LOT Polish Airlines",
+        "country": "Poland"
+    },
+    {
+        "code": "UA",
+        "name": "United Airlines",
+        "country": "United States"
+    },
+    {
+        "code": "AA",
+        "name": "American Airlines",
+        "country": "United States"
+    },
+    {
+        "code": "DL",
+        "name": "Delta Air Lines",
+        "country": "United States"
+    },
+    {
+        "code": "WN",
+        "name": "Southwest Airlines",
+        "country": "United States"
+    },
+    {
+        "code": "AC",
+        "name": "Air Canada",
+        "country": "Canada"
+    },
+    {
+        "code": "WS",
+        "name": "WestJet",
+        "country": "Canada"
+    },
+    {
+        "code": "AM",
+        "name": "Aeroméxico",
+        "country": "Mexico"
+    },
+    {
+        "code": "LA",
+        "name": "LATAM Airlines",
+        "country": "Chile"
+    },
+    {
+        "code": "AV",
+        "name": "Avianca",
+        "country": "Colombia"
+    },
+    {
+        "code": "CM",
+        "name": "Copa Airlines",
+        "country": "Panama"
+    },
+    {
+        "code": "SA",
+        "name": "South African Airways",
+        "country": "South Africa"
+    },
+    {
+        "code": "ET",
+        "name": "Ethiopian Airlines",
+        "country": "Ethiopia"
+    },
+    {
+        "code": "MS",
+        "name": "EgyptAir",
+        "country": "Egypt"
+    },
+    {
+        "code": "SV",
+        "name": "Saudia",
+        "country": "Saudi Arabia"
+    },
+    {
+        "code": "LY",
+        "name": "El Al",
+        "country": "Israel"
+    },
+    {
+        "code": "VN",
+        "name": "Vietnam Airlines",
+        "country": "Vietnam"
+    },
+    {
+        "code": "PG",
+        "name": "Bangkok Airways",
+        "country": "Thailand"
+    },
+    {
+        "code": "PR",
+        "name": "Philippine Airlines",
+        "country": "Philippines"
+    },
+    {
+        "code": "BI",
+        "name": "Royal Brunei Airlines",
+        "country": "Brunei"
+    },
+    {
+        "code": "FY",
+        "name": "Firefly",
+        "country": "Malaysia"
+    },
+    {
+        "code": "GA",
+        "name": "Garuda Indonesia",
+        "country": "Indonesia"
+    },
+    {
+        "code": "FJ",
+        "name": "Fiji Airways",
+        "country": "Fiji"
+    },
+    {
+        "code": "HA",
+        "name": "Hawaiian Airlines",
+        "country": "United States"
+    },
+    {
+        "code": "AS",
+        "name": "Alaska Airlines",
+        "country": "United States"
+    },
+    {
+        "code": "B6",
+        "name": "JetBlue Airways",
+        "country": "United States"
+    },
+    {
+        "code": "G3",
+        "name": "GOL Linhas Aéreas",
+        "country": "Brazil"
+    },
+    {
+        "code": "AD",
+        "name": "Azul Brazilian Airlines",
+        "country": "Brazil"
+    },
+    {
+        "code": "TP",
+        "name": "TAP Air Portugal",
+        "country": "Portugal"
+    },
+    {
+        "code": "RO",
+        "name": "TAROM",
+        "country": "Romania"
+    },
+    {
+        "code": "A3",
+        "name": "Aegean Airlines",
+        "country": "Greece"
+    },
+    {
+        "code": "EI",
+        "name": "Aer Lingus",
+        "country": "Ireland"
+    },
+    {
+        "code": "UX",
+        "name": "Air Europa",
+        "country": "Spain"
+    },
+    {
+        "code": "BT",
+        "name": "airBaltic",
+        "country": "Latvia"
+    },
+    {
+        "code": "HY",
+        "name": "Uzbekistan Airways",
+        "country": "Uzbekistan"
+    },
+    {
+        "code": "IR",
+        "name": "Iran Air",
+        "country": "Iran"
+    },
+    {
+        "code": "VJ",
+        "name": "VietJet Air",
+        "country": "Vietnam"
+    },
+    {
+        "code": "AK",
+        "name": "AirAsia",
+        "country": "Malaysia"
+    },
+    {
+        "code": "TR",
+        "name": "Scoot",
+        "country": "Singapore"
+    },
+    {
+        "code": "JQ",
+        "name": "Jetstar Airways",
+        "country": "Australia"
+    },
+    {
+        "code": "ZL",
+        "name": "Rex Airlines",
+        "country": "Australia"
+    },
+    {
+        "code": "VA",
+        "name": "Virgin Australia",
+        "country": "Australia"
+    },
+    {
+        "code": "HK",
+        "name": "Hong Kong Airlines",
+        "country": "Hong Kong"
+    },
+    {
+        "code": "UO",
+        "name": "HK Express",
+        "country": "Hong Kong"
+    },
+    {
+        "code": "MM",
+        "name": "Peach Aviation",
+        "country": "Japan"
+    },
+    {
+        "code": "6E",
+        "name": "IndiGo",
+        "country": "India"
+    },
+    {
+        "code": "UK",
+        "name": "Vistara",
+        "country": "India"
+    },
+    {
+        "code": "SN",
+        "name": "Brussels Airlines",
+        "country": "Belgium"
+    }
+]
